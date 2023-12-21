@@ -1,0 +1,39 @@
+body {
+  background: #f0eeef;
+  text-align: center;
+  color: #000000;
+  padding: 2.5em;
+  font-family: Taviraj, sans-serif;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #f4c088;
+  align-self: center;
+  padding: 1em 3em;
+  font-size: 1em;
+  font-family: Neucha;
+}
+
+.swatch {
+  width: 20em;
+  height: 2.5em;
+  margin: 1em auto;
+}
+.pink {
+  background: #dfaea9;
+}
+
+.green {
+  background: #5d6a5e;
+}
+
+.blue {
+  background: #92b7c8;
+}
