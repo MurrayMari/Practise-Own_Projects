@@ -1,0 +1,37 @@
+
+Chelliah, I. (2023) '5 ways to find the index of a substring in Python,' Built In [Preprint]. https://builtin.com/software-engineering-perspectives/python-substring-indexof (Accessed: 20 Sep).
+
+Chris (2021) 'How to Print the Content of a .txt File in Python?,' Be On the Right Side of Change [Preprint]. https://blog.finxter.com/how-to-print-the-content-of-a-txt-file-in-python/(Accessed: 18 Sep).
+
+Converting unix timestamp string to readable date (no date). https://stackoverflow.com/questions/3682748/converting-unix-timestamp-string-to-readable-date(Accessed: 21 Sep).
+
+datetime — Basic date and time types (no date). https://docs.python.org/3/library/datetime.html(Accessed: 21 Sep).
+
+GeeksforGeeks (2023a) 'Python datetime.timedelta function,' GeeksforGeeks [Preprint]. https://www.geeksforgeeks.org/python-datetime-timedelta-function/(Accessed: 18 Sep).
+
+GeeksforGeeks (2023b) 'Python program to convert unix timestamp string to readable date,' GeeksforGeeks [Preprint]. https://www.geeksforgeeks.org/python-program-to-convert-unix-timestamp-string-to-readable-date/(Accessed: 19 Sep).
+
+General | API | CodeCademy (2022). https://www.codecademy.com/resources/docs/general/api. Get multiple values from a Dictionary in Python | bobbyhadz (no date). https://bobbyhadz.com/blog/python-get-multiple-values-from-dictionary(Accessed: 18 Sep).
+
+Grupman, C. (2023) 'Python API Tutorial: Getting Started with APIs,' Dataquest [Preprint]. https://www.dataquest.io/blog/python-api-tutorial/(Accessed: 20 Sep).
+
+Matalka, L. (2022) 'JSON and APIs with Python - Towards Data Science,' Medium, 19 November. https://towardsdatascience.com/json-and-apis-with-python-fba329ef6ef0(Accessed: 19 Sep).
+
+OpenWeatherMap.org (no date) Weather conditions - OpenWeatherMap. https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2(Accessed: 18 Sep).
+
+Pankaj (2022) 'Python slice string,' DigitalOcean [Preprint]. https://www.digitalocean.com/community/tutorials/python-slice-string(Accessed: 20 Sep).
+
+Python built-in functions (no date). https://www.w3schools.com/python/python_ref_functions.asp(Accessed: 18 Sep).
+
+Python Escape Characters (no date). https://www.w3schools.com/python/gloss_python_escape_characters.asp(Accessed: 20 Sep).
+
+Python Function arguments (no date). https://www.w3schools.com/python/gloss_python_function_arguments.asp(Accessed: 18 Sep).
+
+Python Nested Dictionary (With Examples) (no date). https://www.programiz.com/python-programming/nested-dictionary(Accessed: 19 Sep).
+
+Remove all whitespace in a string (no date). https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string(Accessed: 21 Sep).
+
+Unix Time Stamp - Epoch Converter (no date). https://www.unixtimestamp.com/(Accessed: 18 Sep).
+
+Vishal (2022) 'Python compare two dates,' PYnative [Preprint]. https://pynative.com/python-compare-dates/#:~:text=two%20datetime%20objects-,Use%20comparison%20operators%20(like%20%2C%20%3C%3D%20%2C,datetime_1%20is%20greater%20than%20datetime_2.&text=If%20you%20want%20to%20compare,part%20from%20the%20datetime%20object(Accessed: 21 Sep).
+

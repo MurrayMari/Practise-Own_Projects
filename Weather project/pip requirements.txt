@@ -1,0 +1,19 @@
+Requirements for weather.py
+module requests - allows your python program to send HTTP requests, in this program I have used it to request
+specific information from the OpenWeather API with requests.get.
+To install requests
+- go to the terminal and enter this command:
+pip install requests
+https://requests.readthedocs.io/en/latest
+
+module datetime - gives your program the ability to manipulating dates and times
+and in my program also used to get the current date and time for the user.
+To install datetime
+-go to the terminal and enter this command:
+pip install DateTime
+https://docs.python.org/3/library/datetime.html
+
+
+Not a requirement the same as above:
+Instructions on how to use Google maps to get longitude and latitude:
+https://support.google.com/maps/answer/18539?hl=en-GB&co=GENIE.Platform%3DDesktop#:~:text=Here%20are%20examples%20of%20formats,)%3A%2041%2024.2028%2C%202%2010.4418
