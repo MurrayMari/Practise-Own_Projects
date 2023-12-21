@@ -1,0 +1,71 @@
+<body>
+  <h1>Hello Darlings</h1>
+  <h2>
+    Welcome to my <span class='strike'>cult</span> bridal party.
+  </h2>
+  <h3>You're on this page so we can sort out what you're wearing up beside me on my big day.</h3>
+  <p>I am providing a €200 budget to each of you to use how you see fit on your outfits; shoes, dress, suit - whatever you want to wear. </p>
+
+  <h3>Let me help you plan what you'll need to buy,</h3>
+  <h3>Firstly - Quick ID check;</h3>
+  <button onclick="changeToPink()" id="hello-button">Who Are You?</button>
+
+  <h3>Next - These are our wedding colours</h3>
+  <!--would have preferred to use an image here but with submitting the code on codepen this is my creative work around-->
+  <div class="container">
+    <div class="swatch pink"></div>
+    <div class="swatch green"></div>
+    <div class="swatch blue"></div>
+  </div>
+
+  <p>Feel free to pick any - I, personally will be wearing white</p>
+  <button onclick="changeToGreen()" id="colour-question">Which colour?</button>
+
+  <h3>Outfit Choices: Dress, Suit or Something else.</h3>
+  <p>If you can't decide please use the ramdoniser to pick for you;</p>
+  <button onclick="changeToBlue()" id="clothes-button">Outfit options</button>
+
+  <h3>Shoe Choices: Flats, Heels or Something else.</h3>
+  <p>If you don't know - put your trust in the randomiser;</p>
+  <button onclick="changeToGrey()" id="shoes-button">Shoe options</button>
+
+  <form>
+    <h2>In conclusion you will be wearing:</h2>
+    <label for="dress">A dress</label>
+    <input id="dress" name="outfit" type="radio" value="dress">
+    <br>
+    <label for="suit">A suit</label>
+    <input id="suit" name="outfit" type="radio" value="suit">
+    <br>
+    <label for="other">Other</label>
+    <input id="other" name="outfit" type="radio" value="other">
+  </form>
+
+  <!--you here -->
+
+  <p>In the Colour;</p>
+  <label for="pink">pink</label>
+  <input id="pink" name="colour" type="radio" value="pink">
+  <br>
+  <label for="blue">blue</label>
+  <input id="blue" name="colour" type="radio" value="blue">
+  <br>
+  <label for="green">green</label>
+  <input id="green" name="colour" type="radio" value="green">
+  </form>
+
+  <p>With;</p>
+  <label for="heels">High heels</label>
+  <input id="heels" name="shoes" type="radio" value="heels">
+  <br>
+  <label for="flats">Flat shoes</label>
+  <input id="flats" name="shoes" type="radio" value="flats">
+  <br>
+  <label for="other">Other</label>
+  <input id="other" name="shoes" type="radio" value="other">
+  </form>
+
+  <p>That is if you are one of my bridesmaids, if you are not I'm not sure why you've come this far but I hope you've enjoyed yourself.</p>
+  <!--more commments-->
+
+</body>
