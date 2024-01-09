@@ -1,0 +1,383 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* css style rest*/
+
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  background: rgb(191, 203, 168);
+  height: 100%;
+}
+
+button {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.WeddingHeading {
+  line-height: 1;
+  margin: 16px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+.WittyLine {
+  line-height: 1;
+  margin: 8px 0;
+  font-family: Taviraj;
+  color: #2b463e;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.email {
+  margin-top: 24px;
+  font-style: italic;
+}
+.footer {
+  padding: 0 18px 16px;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+/*Hotelpage*/
+.date {
+  padding: 20px 18px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  border-top: 1px solid #000;
+}
+
+.hotel {
+  font-family: Taviraj;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.whereto {
+  margin-top: 24px;
+  justify-content: center;
+  width: 100%;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.hotelheading {
+  margin: 44px 0 0 0;
+  text-align: center;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.hotelnames {
+  line-height: 1;
+  margin: 28px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.hoteladdress {
+  justify-content: center;
+  font-style: normal;
+  line-height: 1;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.hoteldes {
+  justify-content: center;
+  line-height: 1.75;
+  margin: 32px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+.hotelnum {
+  font-style: italic;
+  line-height: 1;
+  margin-top: 8px;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #046140;
+  font-size: 23px;
+  font-family: Nanum Myeongjo;
+  font-style: italic;
+}
+
+/*Homepage*/
+.homesubh {
+  line-height: 1;
+  margin: 28px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.venue {
+  font-family: Taviraj;
+  margin-top: 8px;
+}
+.host {
+  font-style: normal;
+  line-height: 1;
+  margin-top: 8px;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+.weddingday {
+  line-height: 1;
+  margin: 28px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/*Contactpage*/
+.Diet {
+  justify-content: center;
+  margin-top: 20px;
+  font-style: normal;
+  line-height: 1;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 20px;
+}
+
+.dietdes {
+  justify-content: center;
+  line-height: 1.75;
+  margin: px 0;
+  font-family: Taviraj;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.email {
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-style: normal;
+  line-height: 1;
+  font-family: Taviraj;
+  color: rgba(41, 38, 38, 0.658);
+  font-size: 20px;
+}
+.counter {
+  font-family: Taviraj;
+  font-style: italic;
+  margin-top: 12px;
+  font-size: 20px;
+  line-height: 1;
+}
+.button2 {
+  font-family: Taviraj;
+  font-style: italic;
+  margin-bottom: 12px;
+}
